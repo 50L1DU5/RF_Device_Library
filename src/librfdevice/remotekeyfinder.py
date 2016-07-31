@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from rfdevlib.ooktransmitter import OOKTransmitter
+from librfdevice.ooktransmitter import OOKTransmitter
 
 
 class RemoteKeyFinder(OOKTransmitter):

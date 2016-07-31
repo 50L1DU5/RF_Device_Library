@@ -3,7 +3,7 @@
 # File that can be used as an import into RFcat
 # As such, rflib and RFcat must be installed
 
-from rfdevlib.ooktransmitter import OOKTransmitter, d
+from librfdevice.ooktransmitter import OOKTransmitter, d
 
 
 class WLTX201(OOKTransmitter):
